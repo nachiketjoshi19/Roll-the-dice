@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous" defer></script>
+    <script src="js/script.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center mt-5 title">
+                    <h1>Welcome to dice game</h1>
+                </div>
+                <div class="col-lg-12 text-center mt-5 title">
+                    <h1 id="winner">Lets play</h1>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4">
+                    <img width="150px" id="player1" class="rounded mx-auto d-block" src="assets/1.png">
+                    <h3 class="display-6 text-center mt-2">player1</h3>
+                </div>
+                <div class="col-lg-4">
+                    <img width="150px" id="player2" class="rounded mx-auto d-block" src="assets/6.png" alt="">
+                    <h3 class="display-6 text-center mt-2">player2</h3>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-12 text-center mt-5">
+                    <button onclick="roll()" class="btn" style="background-color:grey; color: black;">
+                        roll the dice
+                    </button>
+                </div>
+                <div class="col-lg-12 text-center mt-5">
+                    <button onclick="change()" class="btn" style="background-color:grey; color: black;">
+                        Click to change the style
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

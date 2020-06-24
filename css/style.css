@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.box {
+    background-color: brown;
+    min-height: 100vh;
+    color: rgb(231, 179, 111);
+    text-transform: capitalize;
+}
